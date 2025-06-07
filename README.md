@@ -28,3 +28,9 @@ To run any of the challenges:
 - **Name:** Patricia Njuguna
 - **GitHub:** [@Ms-Njuguna](https://github.com/Ms-Njuguna)
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
