@@ -1,8 +1,15 @@
 //This challenge is to create a simplified estimator for transaction fees
 
 // Prompt the user to enter the amount of money they wish to send
-const input = prompt("Unatuma Ngapi? (KES):");
-const amountToSend = Number(input);
+//add a do...while loop to make sure the input is always a number
+
+let input;
+let amountToSend;
+
+do {
+  input = prompt("Unatuma Ngapi? (KES):");
+  amountToSend = Number(input);
+} while (isNaN(amountToSend) || amountToSend <= 0);
 
 //create a JavaScript function that Takes the amountToSend an argument and calculates the transaction fee
 

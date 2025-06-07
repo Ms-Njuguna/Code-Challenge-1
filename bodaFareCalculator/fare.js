@@ -1,9 +1,16 @@
 //This challenge is to create a simple program to estimate the fare for a boda boda ride
 
 //Prompt the user to enter the distance of their trip in kilometers and convert this input to a number
+//add a do...while loop to make sure the input is always a number
 
-const input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?: ");
-const distanceInKm = Number(input);
+let input;
+let distanceInKm;
+
+do {
+  input = prompt("Unafika wapi Mkubwa? Kilometer ngapi?: ");
+  distanceInKm = Number(input);
+} while (isNaN(distanceInKm) || distanceInKm <= 0);
+
 
 //create a function that takes the distanceInKm as an argument and returns the total fare according to the distance input by the user
 

@@ -1,9 +1,16 @@
 //involves creating a simple calculator to determine the basic ingredients needed to make a specific number of cups of Kenyan chai
 
 //Prompts the user to enter the number of chai cups they want to make
+//add a do...while loop to make sure the input is always a number
 
-const input = prompt('Karibu! How many cups of Chai Bora would you like to make? ');
-let numberOfCups = parseInt(input);
+let input;
+let numberOfCups;
+
+do {
+  input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
+  numberOfCups = Number(input);
+} while (isNaN(numberOfCups) || numberOfCups <= 0);
+
 
 //a function that takes the numberOfCups (as a number) as an argument
 
