@@ -53,6 +53,14 @@ To run any of the challenges:
    ```bash
    git clone git@github.com:Ms-Njuguna/Code-Challenge-1.git
    cd Code-Challenge-1
+   code .
+
+2. Open the respective html files in the web and test the code via web developer tools console:
+   ```bash
+   explorer.exe chai.html
+   explorer.exe fee.html
+   explorer.exe fare.html
+
 
 ## Author
 
